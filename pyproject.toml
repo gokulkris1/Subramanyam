@@ -26,12 +26,10 @@ telugu-mcp-server = "server:run"
 
 [tool.setuptools]
 package-dir = {"" = "src"}
+py-modules = ["server"]
 
 [tool.setuptools.packages.find]
 where = ["src"]
-
-[tool.setuptools.py-modules]
-modules = ["server"]
 
 [tool.setuptools.package-data]
 ceremonies = ["telugu_rituals.jsonl"]
