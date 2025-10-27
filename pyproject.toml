@@ -23,7 +23,6 @@ dev = [
 
 [project.scripts]
 telugu-mcp-server = "server:run"
-telugu-mcp-http = "server:run_http"
 
 [tool.setuptools]
 package-dir = {"" = "src"}

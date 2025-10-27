@@ -1,4 +1,5 @@
 """Executable entry points for the Telugu Hindu ceremonies MCP server."""
+"""Executable entry point for the Telugu Hindu ceremonies MCP server."""
 from __future__ import annotations
 
 import asyncio
@@ -7,6 +8,7 @@ import os
 from http import HTTPStatus
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from typing import Any, Dict, List, Tuple
+from typing import Any, Dict, List
 
 from ceremonies import load_default_repository
 
