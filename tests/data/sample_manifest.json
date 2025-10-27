@@ -1,0 +1,15 @@
+[
+  {
+    "id": "test_ganapati_source",
+    "title": "పరీక్ష గణపతి పద్ధతి",
+    "layer": "core_rituals_smarta",
+    "tradition": "స్మార్త",
+    "source_url": "",
+    "format": "text",
+    "local_path": "sample_source.txt",
+    "chunk_size": 120,
+    "region": ["ఆంధ్ర"],
+    "tags": ["test", "ganapati"],
+    "notes": "యూనిట్ పరీక్ష కోసం చిన్న మూలం."
+  }
+]

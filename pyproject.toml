@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "telugu-mcp-server"
+version = "0.1.0"
+description = "MCP server providing Telugu guidance for Hindu ceremonies"
+authors = [
+  { name = "Subramanyam" }
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "mcp>=0.1.0"
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0",
+  "build>=1.2"
+]
+
+[project.scripts]
+telugu-mcp-server = "server:run"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+py-modules = ["server"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+ceremonies = ["telugu_rituals.jsonl"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
