@@ -5,24 +5,37 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "telugu-mcp-server"
 version = "0.1.0"
-description = "MCP server providing Telugu guidance for Hindu ceremonies"
+description = "Citation-first Telugu Hindu ritual reference MCP server"
 authors = [
   { name = "Subramanyam" }
 ]
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
-  "mcp>=0.1.0"
+  "mcp>=1.12,<2"
 ]
 
 [project.optional-dependencies]
+priest = [
+  "anthropic>=1,<2",
+  "edge-tts>=7,<8",
+  "imageio-ffmpeg>=0.5",
+  "uvicorn>=0.30"
+]
 dev = [
+  "anthropic>=1,<2",
+  "edge-tts>=7,<8",
+  "imageio-ffmpeg>=0.5",
+  "uvicorn>=0.30",
+  "httpx",
   "pytest>=8.0",
   "build>=1.2"
 ]
 
 [project.scripts]
 telugu-mcp-server = "server:run"
+telugu-corpus-import = "corpus.library:main"
+telugu-priest = "priest.app:main"
 
 [tool.setuptools]
 package-dir = {"" = "src"}
@@ -33,6 +46,7 @@ where = ["src"]
 
 [tool.setuptools.package-data]
 ceremonies = ["telugu_rituals.jsonl"]
+priest = ["poojas/*.json", "static/*", "static/music/*", "static/img/*"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

@@ -39,6 +39,12 @@ class SourceManifestEntry:
     notes: Optional[str] = None
     tags: Optional[List[str]] = None
     local_path: Optional[str] = None
+    language: str = "te"
+    edition: str = ""
+    rights_basis: str = ""
+    rights_note: str = ""
+    review_status: str = "unreviewed"
+    reviewer: str = ""
 
     def resolve_path(self, base_path: Path | None = None) -> Path | None:
         """Return a resolved local path for this entry, if one was provided."""
@@ -141,6 +147,12 @@ def load_manifest(path: str | Path) -> List[SourceManifestEntry]:
                 notes=str(raw.get("notes", "")),
                 tags=list(raw.get("tags", [])),
                 local_path=raw.get("local_path"),
+                language=raw.get("language", "te"),
+                edition=raw.get("edition", ""),
+                rights_basis=raw.get("rights_basis", ""),
+                rights_note=raw.get("rights_note", ""),
+                review_status=raw.get("review_status", "unreviewed"),
+                reviewer=raw.get("reviewer", ""),
             )
         except KeyError as exc:  # pragma: no cover - defensive
             raise ManifestLoadError(f"Manifest entry missing field: {exc}") from exc

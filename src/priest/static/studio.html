@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="te">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#3b0d0c">
+  <link rel="icon" href="data:,">
+  <title>అయ్యగారు రికార్డింగ్ స్టూడియో</title>
+  <style>
+    :root { --maroon: #3b0d0c; --saffron: #f39c33; --gold: #f7d38b; --cream: #fff7ea; --green: #1fbf62; --red: #e5383b; --card: rgba(255,247,234,.07); }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: "Noto Sans Telugu", "Nirmala UI", "Kohinoor Telugu", system-ui, sans-serif;
+      background: radial-gradient(120% 50% at 50% 0%, #6b2414, var(--maroon) 55%) fixed; color: var(--cream); }
+    main { max-width: 760px; margin: 0 auto; padding: 20px 16px 80px; }
+    h1 { color: var(--gold); font-size: 24px; margin: 4px 0; }
+    .sub { opacity: .75; margin: 0 0 18px; font-size: 14px; line-height: 1.5; }
+    .card { background: var(--card); border: 1px solid rgba(247,211,139,.2); border-radius: 16px; padding: 14px; margin-bottom: 12px; }
+    .card.done { border-color: rgba(31,191,98,.6); }
+    .row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+    .num { min-width: 34px; height: 34px; border-radius: 50%; display: grid; place-items: center; background: rgba(243,156,51,.2); color: var(--gold); font-weight: 700; }
+    .title { font-weight: 700; color: var(--gold); flex: 1; }
+    .title small { display: block; font-weight: 400; color: var(--cream); opacity: .6; font-size: 12px; }
+    .badge { font-size: 12px; padding: 3px 9px; border-radius: 999px; background: rgba(255,255,255,.1); }
+    .badge.ok { background: var(--green); color: #04210f; font-weight: 700; }
+    details { margin: 10px 0; font-size: 14px; }
+    summary { cursor: pointer; color: var(--saffron); }
+    .guide { line-height: 1.7; opacity: .85; margin-top: 6px; white-space: pre-wrap; }
+    button { font: inherit; border: 0; border-radius: 999px; padding: 9px 16px; cursor: pointer; background: rgba(255,255,255,.12); color: var(--cream); }
+    button.rec { background: var(--red); color: #fff; font-weight: 700; }
+    button.rec.on { animation: pulse 1s infinite alternate; }
+    button.save { background: var(--green); color: #04210f; font-weight: 700; }
+    button:disabled { opacity: .4; }
+    @keyframes pulse { to { opacity: .55; } }
+    audio { width: 100%; margin-top: 8px; height: 40px; }
+    .timer { font-variant-numeric: tabular-nums; opacity: .8; }
+    .login { display: flex; gap: 8px; }
+    .login input { flex: 1; padding: 10px 14px; border-radius: 999px; border: 1px solid rgba(247,211,139,.4); background: rgba(0,0,0,.25); color: var(--cream); font: inherit; }
+    .progress { height: 6px; background: rgba(255,255,255,.12); border-radius: 6px; overflow: hidden; margin: 8px 0 18px; }
+    .progress div { height: 100%; width: 0; background: var(--saffron); transition: width .4s; }
+    .ref { position: fixed; inset: 0; background: rgba(0,0,0,.8); display: grid; place-items: center; z-index: 9; padding: 16px; }
+    .ref[hidden] { display: none; }
+    .ref .box { width: min(900px, 100%); }
+    .ref iframe { width: 100%; aspect-ratio: 16/9; border: 0; border-radius: 12px; background: #000; }
+    .ref .note { font-size: 13px; opacity: .7; margin: 8px 0; }
+    .read { font-size: 17px; line-height: 1.8; background: rgba(0,0,0,.2); border-radius: 12px; padding: 12px; }
+    .msg { font-size: 13px; margin-top: 6px; opacity: .85; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>🎙️ అయ్యగారు రికార్డింగ్ స్టూడియో</h1>
+  <p class="sub">ప్రతి దశకు అయ్యగారు మంత్రాన్ని తన గొంతుతో చదివి రికార్డ్ చేయండి. పూజ కాల్‌లో అయ్యగారి ముఖం ఈ రికార్డింగ్‌తో పాటు మాట్లాడుతుంది.
+    Record each step's mantra in Ayyagaru's own voice; his face chants it during the call.
+    Take earphones off, use a quiet room and hold the phone about 30 cm away.</p>
+
+  <section id="login" class="card">
+    <div class="row"><b>స్టూడియో కీ · Studio key</b></div>
+    <p class="msg">The key set on the server (STUDIO_KEY). Only people with it can record.</p>
+    <div class="login"><input id="key" type="password" autocomplete="current-password" placeholder="studio key"><button id="enter">తెరవండి</button></div>
+    <div id="login-msg" class="msg"></div>
+  </section>
+
+  <section id="studio" hidden>
+    <div class="row"><b id="count">0 / 0</b><span class="badge" id="pooja-name"></span></div>
+    <div class="progress"><div id="bar"></div></div>
+
+    <div class="card" id="voice-card">
+      <div class="row"><span class="num">🗣</span><div class="title">స్వర నమూనా · Voice sample (for voice cloning)<small>Read this aloud naturally, 1–2 minutes. Record 2–3 samples.</small></div><span class="badge" id="sample-count">0</span></div>
+      <div class="read" id="sample-text"></div>
+      <div class="row" style="margin-top:10px"><button class="rec" data-kind="sample">● రికార్డ్</button><span class="timer"></span><button class="save" hidden>✓ సేవ్</button></div>
+      <audio controls hidden></audio>
+      <div class="msg"></div>
+    </div>
+
+    <div id="steps"></div>
+  </section>
+</main>
+
+<div class="ref" id="ref" hidden>
+  <div class="box">
+    <iframe id="ref-frame" allow="autoplay; encrypted-media" title="Reference"></iframe>
+    <p class="note">Reference only, for the reader (never shown to families). Listen to the order and rhythm, then chant in your own way.</p>
+    <button id="ref-close">✕ మూసివేయండి</button>
+  </div>
+</div>
+<script src="/static/studio.js"></script>
+</body>
+</html>

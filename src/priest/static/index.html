@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="te">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#3b0d0c">
+  <meta name="mobile-web-app-capable" content="yes">
+  <link rel="icon" href="data:,">
+  <title>అయ్యగారు పూజ కాల్</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <!-- Home -->
+  <section id="home" class="screen active">
+    <div class="home-top">
+      <img id="home-face" class="home-face" alt="అయ్యగారు" hidden>
+      <div class="om" id="home-om">ॐ</div>
+      <h1>అయ్యగారు</h1>
+      <p class="sub">మీతో కలిసి పూజ చేసే పంతులు గారు</p>
+    </div>
+    <div class="pooja-card">
+      <div class="label" id="today-label">ఈరోజు పూజ</div>
+      <div id="pooja-title" class="pooja-title">…</div>
+      <div id="pooja-title-en" class="pooja-title-en"></div>
+      <details class="items">
+        <summary id="items-label">కావలసిన సామగ్రి</summary>
+        <ul id="items-list"></ul>
+      </details>
+    </div>
+    <div class="voice-card">
+      <div class="label" id="voice-label">అయ్యగారు స్వరం</div>
+      <div id="voice-list" class="voice-list" role="radiogroup"></div>
+    </div>
+    <button id="call-btn" class="call-btn" aria-label="Call Ayyagaru" disabled>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17 10.5V7a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-3.5l4 4v-11l-4 4z"/></svg>
+    </button>
+    <div class="call-hint" id="call-hint">అయ్యగారికి వీడియో కాల్ చేయండి</div>
+    <p class="fine" id="fine">ఫోన్‌ను మీరు, పూజా స్థలం కనిపించేలా నిలబెట్టండి. కెమెరా, మైక్ అనుమతి అడిగినప్పుడు "అనుమతించు" నొక్కండి.</p>
+  </section>
+
+  <!-- Ringing -->
+  <section id="ringing" class="screen">
+    <div class="ring-avatar"><img id="ring-thumb" alt=""><span class="pulse"></span></div>
+    <div class="ring-name">అయ్యగారు</div>
+    <div class="ring-status" id="ring-status">కాల్ చేస్తున్నాం…</div>
+    <button id="cancel-btn" class="end-btn" aria-label="Cancel call">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 9c-1.6 0-3.15.25-4.6.72v3.1c0 .39-.23.74-.56.9-.98.49-1.87 1.12-2.66 1.85-.18.18-.43.28-.7.28-.28 0-.53-.11-.71-.29L.29 13.08a.996.996 0 0 1 0-1.41C3.34 8.78 7.46 7 12 7s8.66 1.78 11.71 4.67c.38.38.38 1.02 0 1.41l-2.48 2.48c-.18.18-.43.29-.71.29-.27 0-.52-.11-.7-.28a11.27 11.27 0 0 0-2.67-1.85.996.996 0 0 1-.56-.9v-3.1C15.15 9.25 13.6 9 12 9z"/></svg>
+    </button>
+  </section>
+
+  <!-- In call -->
+  <section id="call" class="screen">
+    <div class="remote">
+      <div id="player"></div>
+      <button id="tap-play" class="tap-play" hidden>▶ ప్లే చేయండి</button>
+      <div class="veil">
+        <canvas id="face" class="face" hidden aria-label="అయ్యగారు"></canvas>
+        <div class="avatar" id="avatar"><div class="avatar-fallback">ॐ</div></div>
+        <span id="veil-text">🙏 అయ్యగారు మిమ్మల్ని చూస్తున్నారు</span>
+      </div>
+    </div>
+    <header class="call-top">
+      <div>
+        <div class="who">అయ్యగారు <span id="call-timer">00:00</span></div>
+        <div id="step-label" class="step-label"></div>
+      </div>
+      <div class="top-right">
+        <button id="music-btn" class="eye" aria-label="Background music" aria-expanded="false">🎵</button>
+        <div id="eye" class="eye" title="Ayyagaru is watching">👁 <span id="eye-text"></span></div>
+      </div>
+    </header>
+    <div id="music-panel" class="music-panel" hidden>
+      <label for="music-vol" id="music-label">మంగళ వాద్యం</label>
+      <input id="music-vol" type="range" min="0" max="100" step="5">
+      <div class="credit">Nadaswaram &amp; thavil: Vis M, CC BY 4.0</div>
+    </div>
+    <div class="progress"><div id="progress-bar"></div></div>
+    <video id="self" class="self" autoplay playsinline muted></video>
+    <button id="flip-btn" class="flip" aria-label="Switch camera">⟲</button>
+    <div class="captions" aria-live="polite">
+      <div id="cap-user" class="cap-user"></div>
+      <div id="cap-priest" class="cap-priest"></div>
+    </div>
+    <nav class="controls">
+      <button id="mic-btn" class="ctl" aria-label="Microphone"><span class="ico">🎙</span><span>మైక్</span></button>
+      <button id="repeat-btn" class="ctl" aria-label="Repeat step"><span class="ico">↺</span><span>మళ్ళీ</span></button>
+      <button id="pause-btn" class="ctl" aria-label="Pause"><span class="ico">⏸</span><span id="pause-label">ఆగు</span></button>
+      <button id="next-btn" class="ctl" aria-label="Done / next"><span class="ico">✓</span><span>అయింది</span></button>
+      <button id="end-btn" class="ctl end" aria-label="End call"><span class="ico">✕</span><span>ముగించు</span></button>
+    </nav>
+  </section>
+
+  <!-- Ended -->
+  <section id="ended" class="screen">
+    <div class="om big">ॐ</div>
+    <h2 id="ended-title">పూజ పూర్తయింది</h2>
+    <p id="ended-sub">సర్వే జనాః సుఖినో భవంతు</p>
+    <button id="again-btn" class="secondary">మళ్ళీ కాల్ చేయండి</button>
+  </section>
+
+  <div id="toast" class="toast" role="status" hidden></div>
+  <script src="/static/app.js"></script>
+</body>
+</html>

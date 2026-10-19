@@ -1,0 +1,467 @@
+{
+  "id": "mahanavami_mahishasura_mardini",
+  "title": "మహానవమి – శ్రీ మహిషాసుర మర్దిని పూజ",
+  "title_en": "Mahanavami – Sri Mahishasura Mardini Pooja (Navaratri Day 9 / Dasara)",
+  "status": "unreviewed_draft",
+  "video": {
+    "youtube_id": "Iskh_EQqvwQ",
+    "title": "శ్రీ మహిషాసుర మర్దిని పూజా విధానం | Navaratri Day 9 Special Pooja | Dasara 2026",
+    "channel": "Bhakti Songs",
+    "duration": 1512
+  },
+  "notes_for_agent": [
+    "All mantras are chanted by the priest in the video segments. Never chant, invent or correct mantras yourself.",
+    "The video's sankalpam names Parabhava samvatsaram, Ashvayuja masam, shukla paksham, Ashtami moving into Navami, Indu vasaram (Monday). This matches Monday 19 Oct 2026. If the user performs it on another day, tell them the date words in the sankalpam may differ and their family priest can confirm.",
+    "In the sankalpam the video asks the user to name their direction relative to Srisailam. The video says North Andhra = ఈశాన్య (north-east) and Hyderabad/Telangana = నైరుతి (south-west). Repeat the video's guidance; if unsure, suggest asking the family elders.",
+    "Substitutions are fine: akshata (turmeric rice) can replace any missing item; a flower can replace akshata; a ghee/oil lamp can replace camphor harati. Never make the user feel the pooja failed.",
+    "Fire safety comes first: lamp and camphor away from curtains, cloth, paper and children. If you see flame near cloth or hair, say so immediately."
+  ],
+  "items": [
+    {
+      "te": "అమ్మవారి పటం లేదా విగ్రహం",
+      "en": "Durga / Mahishasura Mardini photo or idol"
+    },
+    {
+      "te": "పసుపు గణపతి లేదా గణపతి విగ్రహం",
+      "en": "Turmeric Ganapati or Ganapati idol"
+    },
+    {
+      "te": "దీపం (నూనె లేదా నెయ్యి, వత్తి), అగ్గిపెట్టె",
+      "en": "Oil/ghee lamp with wick, matches"
+    },
+    {
+      "te": "అగరబత్తులు",
+      "en": "Incense sticks"
+    },
+    {
+      "te": "కర్పూరం, హారతి పళ్ళెం",
+      "en": "Camphor and harati plate"
+    },
+    {
+      "te": "కుంకుమ, పసుపు, గంధం",
+      "en": "Kumkuma, turmeric, sandal paste"
+    },
+    {
+      "te": "అక్షింతలు (పసుపు కలిపిన బియ్యం)",
+      "en": "Akshata (rice mixed with turmeric)"
+    },
+    {
+      "te": "పువ్వులు",
+      "en": "Flowers"
+    },
+    {
+      "te": "నీళ్లతో పంచపాత్ర, ఉద్ధరిణి (చెంచా), చిన్న పళ్ళెం",
+      "en": "Cup of water, small spoon, small plate"
+    },
+    {
+      "te": "అరటిపండ్లు, కొబ్బరికాయ, ఇతర పండ్లు లేదా తీపి",
+      "en": "Bananas, coconut, other fruits or sweets"
+    },
+    {
+      "te": "తమలపాకులు, వక్కలు",
+      "en": "Betel leaves and betel nuts (tambulam)"
+    }
+  ],
+  "steps": [
+    {
+      "id": "prep_items",
+      "title": "పూజా సామగ్రి సిద్ధం",
+      "title_en": "Arrange the pooja items",
+      "say": "నమస్కారం. ఈరోజు మహానవమి, శ్రీ మహిషాసుర మర్దిని అమ్మవారి పూజ కలిసి చేద్దాం. ముందుగా మీ పూజా స్థలాన్ని, సామగ్రిని కెమెరాకు చూపించండి.",
+      "say_en": "Namaskaram. Today is Mahanavami; let us do the Sri Mahishasura Mardini pooja together. First, show me your pooja place and items on the camera.",
+      "segment": null,
+      "action": "do",
+      "check": "The camera shows a pooja setup: a Devi photo or idol and ideally a Ganapati, a lamp, and items such as flowers, kumkuma, akshata, water cup, fruits. Name which listed items are visible and which important ones (photo/idol, lamp, water, akshata, kumkuma) seem missing, and suggest simple substitutes. Mark done if at least a deity image and a lamp are visible."
+    },
+    {
+      "id": "prep_lamp",
+      "title": "దీపం వెలిగించడం",
+      "title_en": "Light the lamp",
+      "say": "ఇప్పుడు అమ్మవారి ముందు దీపం వెలిగించండి. దీపం దగ్గర బట్టలు, కాగితాలు లేకుండా చూసుకోండి.",
+      "say_en": "Now light the lamp in front of Amma. Keep cloth and paper away from the flame.",
+      "segment": null,
+      "action": "do",
+      "check": "A lit lamp (oil/ghee diya) with a visible flame is in front of the deity. Flag any flame close to cloth, paper, curtains or hair."
+    },
+    {
+      "id": "prarthana",
+      "title": "గురు, గణపతి, సరస్వతి ప్రార్థన",
+      "title_en": "Opening prayers (Guru, Ganapati, Saraswati)",
+      "say": "చేతులు జోడించి, కళ్ళు మూసుకుని పంతులు గారి మంత్రాలను వినండి.",
+      "say_en": "Join your palms, close your eyes and listen to Panthulu-garu's prayers.",
+      "segment": [
+        60,
+        213
+      ],
+      "action": "listen",
+      "check": "The person is seated facing the deity with palms joined in namaskaram.",
+      "chant_guide": "హరిహి ఓం శ్రీ గురుభ్యో నమః శ్రీ మహా గణాధిపతయే నమః ఓం గణానాంత్వా గణపతిగుం హవామహే కవిం కవినానుపమశ్రవస్తమం జేష్టరాజం బ్రహ్మణం బ్రహ్మణస్పతఃనసృణవనోతవిసేధ సాధనం శ్రీ మహా గణాధిపతయే నమః ప్రణోదేవి సరస్వతీ వాచే విర్వాజనేవతే ధీనామవిత్రయవతో శ్రీ మహా సరస్వత్యే నమః ఓం గురుబ్రహ్మ గురు విష్ణు గురుదేవో మహేశ్వరః గురు సాక్షాత్ పరబ్రహ్మ తస్మై శ్రీ గురవే నమః శ్రీ గురుభ్యో నమః హరిహి ఓం ఓం మమాజ్ఞేవర్చోవిహవేస్వస్తువయంతత్వేంతానాస్తనువంపుషేమాః మక్యం నమంతాం ప్రతిసచదస్త్రస్తవయధ్యక్షేణ పృతనాజయేమా మమదేవావిహవేసంతు సర్వ ఇంద్రావంతో మరుతో విష్ణురగ్నిహి మమాంతరిక్షమురుగోపమ స్తుమక్యం బాతపవతాంకామే అస్మిన్ మయదేవా ద్రవిణమాయజంతామయ్యా శీరస్తుమయదేవహోతేహే దైవ్యాహోతారావనిశంత పూర్వేరిష్టాశ్యామతనువా శువీరా మక్యం యజంతుమయాని హవ్యోతిసత్య మనసోమే అస్తో ఏనోమానిగా గతమచనాహం విశ్వేదేవాసో అతివోచతామే దేవీషర్విణోత విశ్వేదేవాసో యహవీరయద్వంమాహ స్మహి ప్రజయ మాతను విర్మారధామదిషతే స్వామరాజన్ అగ్నిర్మన్యం ప్రతినిధన్పురాస్తాదబ్దో గోపా పరిపాహినస్వం ప్రత్యంతోయంతపునస్తేమైషాం చిత్తం ప్రభుదావినేషతో ధాతాధాతృణం భువనస్యస్పతిర్దేవగం సవితారభిమాతిశాహం యమమిస్వినోభ బృహస్పతిర్దేవాపాంత యజమానం యర్ధాత ఉర్వ్యచానో మహిషర్మయగం సదస్మిహవేపుహోత తపురుక్షహో సనప్రజాయై హరియస్వమృడయేంద్రమానోరరిషోమాపరాదాః యనస్సపత్యావతే భవత్వింద్ర అగ్నిభ్యమోభవాదామహేతాన్ వసవో రుద్ర ఆదిత్య ఉపరిస్పసంమోగ్రం చత్తారమదిరాజమక్రన్నో అర్వాంచంద్రమతోహవామహేయోగోజిదనజస్వజిద్యః ఇమమనో యజ్ఞం బిహవేస్వాస్య గుర్మో హరివో మేదినంత్వాహ ఓం దేవీంభమచనంత దేవాస్తాం విశ్వరూపాహ పశవోవదంతే స్థానో మంద్రేష మూర్జం దహానాదేనుర్వాగుస్మాన్పసుష్టతేతహో అయం ముహూర్తః శుభ ముహూర్తోస్తు"
+    },
+    {
+      "id": "vighneshwara_dhyanam",
+      "title": "విఘ్నేశ్వర ధ్యానం, అక్షింతలు",
+      "title_en": "Ganapati dhyanam and akshata",
+      "say": "కుడి చేతిలో కొన్ని అక్షింతలు తీసుకోండి. పంతులు గారు 'నమః' అన్న ప్రతిసారీ గణపతి దగ్గర కొన్ని అక్షింతలు వేయండి.",
+      "say_en": "Take some akshata in your right hand. Each time Panthulu-garu says 'namaha', place a little akshata at Ganapati.",
+      "segment": [
+        216,
+        282
+      ],
+      "action": "do",
+      "check": "The person holds akshata (yellow rice) in the right hand or is placing it at the Ganapati.",
+      "chant_guide": "ఓం శుక్లాం భరధరం విష్ణుం శశవర్ణం చతుర్భుజం ప్రసన్నవదనం ధ్యాయేత్ సర్వవిఘ్నోపశాంతయే అగజానన పద్మార్గం గజానన మహర్నిషం అనేకదంతం భక్తానాం ఏకదంతముపాస్మహే యశివో నామరూపాభ్యాం యాదేవి సర్వమంగళాం తయో సంస్కరణాం దుంసాం సర్వతో జయమంగళం లాభస్తేశాం జయస్తేశాం కుతస్తేశాం పరాభవః ఏషామిందేవరస్యామో హృదయస్తో జనార్ధనః ఆపదామపహర్తారం దాతారం సర్వసంపదాం లోకాభిరామం శ్రీరామం భూయో భూయో నమామ్యహం సర్వమంగళ మాంగల్యే శివే సర్వార్ధసాధికే శరణ్యే త్రయంబకే దేవీ గౌరీ నారాయణి నమోస్తుతే ఇప్పుడు ఆ గణపతికి నాలుగు మార్లు అక్షంతలు వేస్తాం ఓం శ్రీ లక్ష్మీ నారాయణాభ్యో నమః ఓం శ్రీ ఉమామహేశ్వరాభ్యో నమః వాణి హిరణ్య గర్భాభ్యో నమః శీ పురంధరాభ్యో నమః అరుంధతి వశిష్టాభ్యో నమః శ్రీ సీతారామాభ్యో నమః సర్వేభ్యో మహాజనేభ్యో నమః అయం ముహూర్తః శుభముహూర్తోస్తు"
+    },
+    {
+      "id": "achamanam",
+      "title": "ఆచమనం",
+      "title_en": "Achamanam (sipping water)",
+      "say": "ఉద్ధరిణితో కుడి అరచేతిలో కొద్దిగా నీళ్లు వేసుకోండి. 'స్వాహా' అన్న ప్రతిసారీ ఆ నీటిని స్వీకరించండి, మూడు సార్లు. తర్వాత చెయ్యి కడుక్కుని, నమస్కారం చేస్తూ నామాలు వినండి.",
+      "say_en": "With the spoon, pour a little water into your right palm. Sip it each time Panthulu-garu says 'swaha', three times. Then rinse the hand and listen to the names with folded palms.",
+      "segment": [
+        283,
+        341
+      ],
+      "action": "do",
+      "check": "The person pours water into the right palm with a spoon, sips it, or sits with folded palms.",
+      "chant_guide": "ఇప్పుడు మనం ఈ పూజలో భాగంగా సంకల్పం అనేటటువంటిది చేసుకుంటాం ముందుగా చేతిలో నీళ్లు వేసుకొని ఒక పక్కగా విడిచిపెట్టుకోవాలి ఇప్పుడు మూడు మార్లు స్వీకరించాలి ఆచమ్యాస్తం రక్షాల్యాచమ్యా కేశవాయ స్వాహా ఓం నారాయణాయ స్వాహా ఓం మాధవాయ స్వాహ మరల ఐదవ మారు చెయ్యి మరలా కడుక్కోవాలి ఓం గోవిందాయ నమః ఓం విష్ణవే నమః ఓం మధుసోధనాయ నమః ఓం త్రివిక్రమాయ నమః ఓం వామనాయ నమః ఓం శ్రీధరాయ నమః ఓం ఋషికేశాయ నమః ఓం పద్మనాభాయ నమః ఓం దామోదరాయ నమః ఓం సంకర్షణాయ నమః ఓం వాసుదేవాయ నమః ఓం ప్రద్యుమనాయ నమః ఓం అనిరుద్ధాయ నమః ఓం పురుషోత్తమాయ నమః ఓం అదోక్షజాయ నమః ఓం నారసింహాయ నమః ఓం అచ్యుతాయ నమః ఓం జనార్ధనాయ నమః ఓం ఉపేంద్రాయ నమః ఓం హరయే నమః ఓం శ్రీ కృష్ణాయ నమః శ్రీ కృష్ణ పరబ్రహ్మణే నమః"
+    },
+    {
+      "id": "bhutochatana",
+      "title": "భూతోచ్చాటన",
+      "title_en": "Bhutochatana (akshata behind)",
+      "say": "ఒక అక్షింత తీసుకుని వాసన చూసి, భుజం మీదుగా వెనక్కి వేయండి.",
+      "say_en": "Take one grain of akshata, smell it, and toss it back over your shoulder.",
+      "segment": [
+        342,
+        353
+      ],
+      "action": "do",
+      "check": "The person holds akshata near the nose or tosses it over the shoulder.",
+      "chant_guide": "ఇప్పుడు మనం ఒక అక్షింత వాసన చూసుకొని వెనక్కి విసిరేసుకుంటాం ఓం ఉత్తిష్టంతో భూతపిశాచాహయతే భూమిపారకాః ఏతేశామవిరోధేన బ్రహ్మ కర్మ సమారభేహ"
+    },
+    {
+      "id": "pranayamam",
+      "title": "ప్రాణాయామం",
+      "title_en": "Pranayamam",
+      "say": "వెన్ను నిటారుగా ఉంచి, కుడి చేతి వేళ్ళను ముక్కు దగ్గర పెట్టి, నెమ్మదిగా గాలి పీల్చి వదలండి.",
+      "say_en": "Sit with a straight back, place the right-hand fingers at the nose, and breathe slowly in and out.",
+      "segment": [
+        353,
+        379
+      ],
+      "action": "do",
+      "check": "The person sits upright with right-hand fingers at the nose.",
+      "chant_guide": "సమారభేహ ఇప్పుడు ప్రాణాయామం ఈ విధంగా మీరు ఈ మూడు వేళ్ళను కూడా పెట్టి మీ నాసికం దగ్గర పెట్టి వెన్ను ముఖ స్ట్రైట్ గా పెట్టి శ్వాస గట్టిగా పీల్చాలి. ఓం భూహం భువః ఓం సువః ఓం మహః ఓం జనః ఓం తపః ఓగుం సత్యం భోం తత్సవితుర్వరేణ్యం భర్గోదేవస్ధీమహే దియోనః ప్రచోదయాతో మాపోజ్యోతిరసోమృతం బ్రహ్మ భూర్భవస్సువరో హస్తం బ్రక్షాల్య"
+    },
+    {
+      "id": "sankalpam",
+      "title": "సంకల్పం",
+      "title_en": "Sankalpam",
+      "say": "నమస్కారం చేస్తూ సంకల్పం వినండి. శ్రీశైలానికి మీరు ఏ దిక్కులో ఉన్నారో ఆ దిక్కు పేరు చెప్పుకోండి. చివర 'కరిష్యే' అనగానే ఉంగరం వేలిని నీటిలో ముంచండి.",
+      "say_en": "Listen to the sankalpam with folded palms. Say the direction you live in relative to Srisailam. When Panthulu-garu says 'karishye', dip your ring finger in the water.",
+      "segment": [
+        380,
+        484
+      ],
+      "action": "do",
+      "check": "The person sits with folded palms, or dips the ring finger into the water cup.",
+      "chant_guide": "ఇప్పుడు మమ అనుకని నమస్కారం చేసుకోండి మమా ఉపాతదృతక్షయ ద్వారః శ్రీ పరమేశ్వర దేవతా ముదిశ్య శ్రీ పరమేశ్వర దేవతా ప్రీత్యర్థం సుభా భ్యాం సుభేశోభనే ముహూర్తే శ్రీ మహా విష్ణు రాగ్య ప్రవర్తమానస్య ఆధ్య బ్రహ్మణః ద్వితీయవరాదే శవేతవరాహ కల్పే వైవస్వతమన్వంతరే కలియుగే ప్రథమపాదే జంభోద్వీపే భరతవర్ష భరతఖండే మేరోర్ దక్షిణ దిగ్భాగే శ్రీశైలస్య ఈశాన్య ప్రదేశే శ్రీశైలానికి మీరు ఎటువైపు ఏ దిక్కు వైపు ఉన్నారో చూసుకుని ఆ దిక్కు వైపు ఉన్నట్టుగా మీరు చెప్పుకోవాలి ఉత్తరాంధ్ర వైపు ఉన్న వాళ్ళంతా కూడా ఈసాన్యం వైపు చెప్పుకోవాలి అలాగే హైదరాబాద్ ప్రాంతాలలో తెలంగాణలో నివసిస్తున్న వారంతా కూడా వారు నైరుతి ప్రాంతాన్ని అంతా కూడా చెప్పుకోవాలి. శ్రీశైలస్యే ఈశాన్య ప్రదేశే గంగా గోదావరిోర్ మధ్యప్రదేశే ఆగ్నేయకోణే ఆంధ్రదేశే అస్మిన్ వర్తమాన వ్యవహారిక చాంద్రో దైవాన్ సష్టి ప్రభవాది మధ్యే శ్రీ పరాభవనామ సంవత్సరే దక్షిణాయనే శరదృతోహు ఆస్వీజమాసేహే శుక్ల పక్షేహే అష్టమీ తత్కాల నవంభ్యాం భాసరః వాసరస్తు ఇందువాసరిక్తాయం శుభ నక్షత్రే శుభయోగే శుభకరణే యావం గుణ విశేషణ విశిష్టాయం శుభాయాం శుభతిదౌ శ్రీ శరణ్నవరాత్రి పూజా సమయే శ్రీ మహిషాసురమర్దినీ దేవతా ప్రీత్యర్థం కుంకుమ పూజా సమయే సోడసోపచార పూజా సమయే అదౌ నిర్విజ్ఞ పరసమాప్యర్థం శ్రీ మహా గణాధిపతి దేవతా పూజామహం కరిష్యే కరిషే అనుకొని ఉంగరం వేలు నీటిలో ముంచండి"
+    },
+    {
+      "id": "ganapati_avahanam",
+      "title": "గణపతి ధ్యానం, ఆవాహనం, ఆసనం, పాద్యం, అర్ఘ్యం",
+      "title_en": "Ganapati: dhyanam, avahanam, asanam, padyam, arghyam, achamaniyam",
+      "say": "ఒక పువ్వు లేదా అక్షింతలు గణపతికి సమర్పించండి. 'పాద్యం', 'అర్ఘ్యం', 'ఆచమనీయం' అన్నప్పుడు ఉద్ధరిణితో ఒక్కో చెంచా నీరు పళ్ళెంలో వదలండి.",
+      "say_en": "Offer a flower or akshata to Ganapati. At 'padyam', 'arghyam' and 'achamaniyam', drop one spoon of water into the small plate each time.",
+      "segment": [
+        484,
+        503
+      ],
+      "action": "do",
+      "check": "The person offers a flower/akshata to Ganapati or pours a spoon of water into the plate.",
+      "chant_guide": "ఓం శ్రీమన్మహా గణాధిపతయే నమః ధ్యాయామి ధ్యాన పుష్పం సమర్పయామి ఆవాహయామి ఆవాహనం సమర్పయామి నవరత్న కజిత స్వర్ణ సింహాసనార్ధే పుష్పాక్షతం సమర్పయామిహి పాదారవిందయో పాద్యం సమర్పయామి హస్తారవిందయో అర్గ్యం సమర్పయామి ముఖే"
+    },
+    {
+      "id": "ganapati_snanam",
+      "title": "స్నానం, వస్త్రం, యజ్ఞోపవీతం",
+      "title_en": "Snanam, vastram, yajnopavitam",
+      "say": "'స్నానం' అన్నప్పుడు పువ్వుతో గణపతిపై కొద్దిగా నీళ్లు చల్లండి. వస్త్రం, యజ్ఞోపవీతం కోసం అక్షింతలు వేయండి.",
+      "say_en": "At 'snanam', sprinkle a little water on Ganapati with a flower. For vastram and yajnopavitam, offer akshata.",
+      "segment": [
+        503,
+        554
+      ],
+      "action": "do",
+      "check": "The person sprinkles water on Ganapati with a flower or offers akshata.",
+      "chant_guide": "ఆచమనీయం సమర్పయామి స్నపయామితిస్నానం ఆపోహిష్టామయో భువహాతాన ఊర్జే దదాతన మహేరణయ చక్షసే యోవశవతమోసః తస్యబాజతేనః స్తేరోరమాత్రః తస్మా అరంగమామోసక్షయ జన్మదః ఆపోజనయదాచనః శ్రీమహా గణాధిపతయే నమః ఇతి సుద్ధోదకస్నానం సమర్పయామి స్నానాంతరం సుద్ధ ఆచమనీయం సమర్పయామి వస్త్రం అభివస్త్ర సోసనాన్యర్షాభి సుదూగా పూయమానాః అభిచంద్ర భతతవేనో హిరణ్యభస్వాదేనా దేవసోమాః శ్రీ మహాగణాధిపతే నమః వస్త్రర్ధమే పుష్పం సమర్పయామి యజ్ఞోపవేతం ధరమం పవిత్రం ప్రజాపతేర్య సహసం పుస్తతో ఆయుష్యం అగ్రం ప్రతిమంచు సుభ్రం యజ్ఞోపవేతం బలమస్తేజః శ్రీ మహాగణాధిపతయే నమః యజ్ఞోవేత ధారణధం యజ్ఞోపవేతం సమర్పయామిహి దివ్యశ్రీ చందనం"
+    },
+    {
+      "id": "ganapati_shodasha_namalu",
+      "title": "గంధం, షోడశ నామ పూజ",
+      "title_en": "Sandal paste and the 16 names of Ganapati",
+      "say": "గణపతికి గంధం, కుంకుమ బొట్టు పెట్టండి. తర్వాత ప్రతి నామానికి కొన్ని అక్షింతలు లేదా పువ్వులు వేయండి.",
+      "say_en": "Apply sandal paste and kumkuma to Ganapati. Then offer a little akshata or a flower at each name.",
+      "segment": [
+        554,
+        619
+      ],
+      "action": "do",
+      "check": "The person applies sandal/kumkuma to Ganapati or offers akshata/flowers repeatedly.",
+      "live_check": true,
+      "chant_guide": "గంధద్వారాం దురాదర్శం నిచపుష్టాం కరేషిణే ఈశ్వరీహం సర్వభూతానాంతామిహోపక్వయేశ్రయం పరిమళ చందనం సమర్పయామి ఆయనేతేపరాయనే దూర్వారోహంత పుష్పణే క్రదాచ పుండరీకాణ సముద్రస్య గృహాయమే గం గణపతయే నమః అని అనుకుంటూ ఈ 16 నామములని కూడా చెబుతూ స్వామి వారికి అక్షింతలతో గాని గరికలతో గాని పువ్వులతో గాని పత్రితో గాని స్వామి వారికి మనం పూజన అంతా కూడా చేసుకోనవచ్చును ఓం శుముకాయ నమః ఓం ఏకదంతాయ నమః ఓం కపిలాయ నమః ఓం గజకర్ణికాయ నమః ఓం లంబోదరాయ నమః ఓం వికటాయ నమః ఓం విఘ్ఞరాజాయ నమః ఓం ధూమకేతవే నమః ఓం గణాధ్యక్షాయ నమః ఓం పాలచంద్ర య నమః ఓం గజాననాయ నమః ఓం వక్రతుండాయ నమః ఓం సూర్పకర్ణాయ నమః ఓం హేరంభాయ నమః ఓం స్కంధ పూర్వజాయ నమః ఓం సర్వసిద్ధి ప్రదాయకాయ నమః ఓం కుమార గురువే నమః ఓం శ్రీమన్మహా గణాధిపతయే నమః నానావిధా పరమపత్ర పుష్పాక్షత పూజాం సమర్పయామి"
+    },
+    {
+      "id": "ganapati_dhupam",
+      "title": "ధూపం",
+      "title_en": "Dhupam (incense)",
+      "say": "అగరబత్తి వెలిగించి గణపతికి చూపించండి.",
+      "say_en": "Light an incense stick and wave it before Ganapati.",
+      "segment": [
+        619,
+        634
+      ],
+      "action": "do",
+      "check": "A lit incense stick (smoke visible) is held or waved before Ganapati.",
+      "chant_guide": "ధూపమాగ్రాపయామి ఓం భనస్పతద్భవే దివ్యే నానా గంధైసమితాహగ్రే సర్వదేవానాం ధూపోయం ప్రతిగృహ్యత ధూపమాగ్రాపయామిహి శ్రీమన్మహా గణాధిపతయే నమః సాక్షాతు"
+    },
+    {
+      "id": "ganapati_deepam",
+      "title": "దీపం",
+      "title_en": "Deepam",
+      "say": "దీపానికి నమస్కారం చేసి, దీపం దగ్గర రెండు అక్షింతలు వేయండి.",
+      "say_en": "Bow to the lamp and place two grains of akshata near it.",
+      "segment": [
+        634,
+        659
+      ],
+      "action": "do",
+      "check": "The person bows to the lit lamp or places akshata near it.",
+      "chant_guide": "ప్రత్యక్షాః దీపం ధూపాన్ని చూపించిన తర్వాత దీపాలకు నమస్కారం చేసుకొని రెండు అక్షంతులు ఆ దీపాల దగ్గర కూడా వేయండి సాధ్యం త్రివర్త సంయుక్తం భక్తినాయోజితం ప్రియం గృహాణ మంగళం దీపం త్రైలోక్యం తిమిరాపః భక్త్యాదీపం ప్రయచ్చామి దేవాయ పరమాత్మనే త్రాహిమాం నరకాద్ఘోరా దివ్య జ్యోతిర్ నమోస్తుతే సాక్షాతు ప్రత్యక్షాః దీపం దర్శయామి ధూపదీపానంతరం శుద్ధ ఆచమనీయం"
+    },
+    {
+      "id": "ganapati_naivedyam",
+      "title": "నైవేద్యం",
+      "title_en": "Naivedyam (banana)",
+      "say": "గణపతి ముందు ఒక అరటిపండు పెట్టండి. దాని చుట్టూ కొద్దిగా నీళ్లు చల్లండి. 'స్వాహా' అన్నప్పుడు చేతితో నైవేద్యాన్ని దేవుని వైపు చూపించండి.",
+      "say_en": "Place one banana before Ganapati. Sprinkle a little water around it. At each 'swaha', gesture the offering towards the deity with your hand.",
+      "segment": [
+        659,
+        714
+      ],
+      "action": "do",
+      "check": "A banana (or fruit) is placed in front of Ganapati.",
+      "chant_guide": "సమర్పయామి నైవేద్యం ఓం చంద్రమామనసోజాతః చక్షో సూర్యోజాయత ముఖదింద్రచాగ్నిచ్య ప్రాణద్వాయురజాయత అలాగే గణపతికి ఒక అరిటిపండుని నైవేద్యంగా కూడా పెట్టండి ఓం భూర్భవస్వహ తత్సవితుర్వరేణ్యం భర్గోదేవస్యధీమహి ధియోయోనః ప్రచోదయాతు సత్యంత వర్తేన పర్శించయామి అమృతమస్తు అమృతో వసరణమసిహే సత్యస్కాలః కదలీ ఫల నైవేద్యనివేదయామి ఓం ప్రాణాయ స్వాహా ఓం అపానాయ స్వాహా ఓం ధ్యానాయ స్వాహా ఓం భుదానాయ స్వాహా ఓం సమానాయ స్వాహా మధ్యే బ్రహ్మణే నమః మధ్యే మధ్యే అమృతపానీయం సమర్పయామిహి అమృతాపిధానమసి ఉత్తరాపోషణం సమర్పయామి హస్తో ప్రక్షాలయామి పాదో ప్రక్షాలయామిహి"
+    },
+    {
+      "id": "ganapati_tambulam",
+      "title": "తాంబూలం",
+      "title_en": "Tambulam",
+      "say": "తమలపాకులు, వక్క గణపతి ముందు పెట్టండి. లేకపోతే అక్షింతలు వేయండి.",
+      "say_en": "Place betel leaves and a betel nut before Ganapati. If you don't have them, offer akshata.",
+      "segment": [
+        714,
+        729
+      ],
+      "action": "do",
+      "check": "Betel leaves/nut, or akshata, are placed before Ganapati.",
+      "chant_guide": "తండూషముకుమాశనార్థంత తాంభూలం సమర్పయామి పూగే పలేశ కర్పూరే నాగవల్లీ ధలేద్యుతాం ముక్తా చూర్ణేన సమాయుక్తం తాంభూలం ప్రతికృహ్యతాం తాంభూలం సమర్పయామి తాంబూల చరణానంతరం ఆనంద కర్పూరః"
+    },
+    {
+      "id": "ganapati_harati",
+      "title": "కర్పూర హారతి",
+      "title_en": "Camphor harati",
+      "say": "హారతి పళ్ళెంలో కర్పూరం వెలిగించి, గణపతికి సవ్యదిశలో మూడు సార్లు తిప్పండి. జాగ్రత్త, బట్టలకు దూరంగా ఉంచండి.",
+      "say_en": "Light camphor on the harati plate and wave it clockwise three times before Ganapati. Careful, keep it away from cloth.",
+      "segment": [
+        729,
+        761
+      ],
+      "action": "do",
+      "check": "A camphor or lamp flame on a plate is being waved before Ganapati. Flag flame near cloth, hair or children.",
+      "live_check": true,
+      "chant_guide": "దివ్య మంగళ నీరాజనం ఇప్పుడు స్వామి వారికి హారతిని చూపించండి ఓం వేదాహమేతం పురుషం మహాంతం ఆదిత్యవరణం తపసభారహే సర్వానిరూపాని విచితరహనామాని పుత్పాపివదన్ యదాస్తే శ్రీమన్మహాగణది ధిపతయే నమః ఆనంద కర్పూరః దివ్య మంగళ నీరాజనం సమర్పయామి నీరాజనానంతరం శుద్ధ ఆచమనీయం సమర్పయామి నమస్కరోమి నమస్కారాం సమర్పయామి జై బోలో గణేశ మహారాజ్కి జై"
+    },
+    {
+      "id": "ganapati_mantrapushpam",
+      "title": "మంత్రపుష్పం, నమస్కారం",
+      "title_en": "Mantra pushpam and namaskaram",
+      "say": "హారతిని కళ్ళకు అద్దుకోండి. తర్వాత ఒక పువ్వు చేతుల్లో పట్టుకుని నమస్కారం చేస్తూ వినండి. చివర ఆ పువ్వును గణపతికి సమర్పించండి.",
+      "say_en": "Take the harati to your eyes. Then hold a flower in joined palms and listen. At the end, offer that flower to Ganapati.",
+      "segment": [
+        761,
+        833
+      ],
+      "action": "do",
+      "check": "The person holds a flower in joined palms or offers it to Ganapati.",
+      "chant_guide": "హారతి కళ్ళకు అద్దుకున్న తర్వాత స్వామి వారికి మంత్ర పుష్పం ఒక పుష్పాన్ని తీసుకొని నమస్కారం చేసుకోండి ఓం సుమకేకదంతచో కపిలో గజకర్ణికః లంభోదరచవికటో విజ్ఞరాజో గణాదిః ధూమకేతుర్ గణధ్యక్షో పాలచంద్రోగజ జానః వక్రతుండ సూర్పకర్ణో హేరంబో స్కంద పూరోజః సోడసైతాని నామాని యప్పడే శృణయాదపి విద్యారంభే వివాహేచ ప్రవేశే నిర్గమేతదా సంగ్రాామే సర్వకార్యేషు విఘ్నతస్యనజాయతే ఓం నమో వ్రతపతయే నమో గణపతయే నమఃప్రమతపతయే నమస్తేస్తులంభోదరాయ ఏకదంతాయ విఘ్ఞ వినాశనే శివసుతాయ శ్రీ వరదమూర్తయే నమో నమః తత్పురుషాయ విద్మహే వక్రతుండాయ ధీమహి తన్నోదంత ప్రచోదయాతు త్రివేదోక్త సువర్ణ దివ్య మంత్రపుష పుష్పాంజలిం సమర్పయామిహి ఆత్మ ప్రదక్షణ పూర్వక నమస్కారాం సమర్పయామి శరసాష్టాంగ పూర్వక నమస్కారాం సమర్పయామి అపరాధ నమస్కారాన్ సమర్పయామి అలా నమస్కారం చేసుకొని స్వామి వారికి ఈ మాటలన్నీ కూడా చెప్పండి వక్రతుండా మహాకాయ కోటి సూర్య సమప్రభా నిర్విఘ్నం కురుమేదేవా సర్వకార్యేషు సర్వదా ప్రార్థన పూర్వక నమస్కారం సమర్పయామి"
+    },
+    {
+      "id": "ganapati_samarpanam",
+      "title": "క్షమాప్రార్థన, ప్రసాదం",
+      "title_en": "Completion and prasadam",
+      "say": "కుడి చేతిలో అక్షింతలు తీసుకుని, కొంచెం నీళ్లు పోసి గణపతి దగ్గర వదలండి. తర్వాత ఒక పువ్వు లేదా రెండు అక్షింతలు తలపై పెట్టుకోండి.",
+      "say_en": "Take akshata in the right hand, add a little water, and release it at Ganapati. Then place a flower or two grains of akshata on your head.",
+      "segment": [
+        835,
+        875
+      ],
+      "action": "do",
+      "check": "The person releases akshata with water at Ganapati, or places a flower/akshata on their head.",
+      "chant_guide": "ఇప్పుడు స్వామి వారికి అక్షింతలు కుడి చేతితో తీసుకొని వాటిలో కొంచెం నీళ్లు పోసుకొని అక్షింతలు నీళ్ళు కూడా ఆ స్వామి వారి దగ్గర అలా విడిచిపెట్టేసేయండి ఓం యస్ స్మృత్యాతనామోక్త పూజా క్రియాదిషునం సంపూర్ణతం యాతి సద్యో వందేతమచతం మంత్రహీనం క్రియాహీనం భక్తిహీనం గణదిప యత్పూజతం మయాదేవా పరిపూర్ణో తదస్తుతే అనయాధ్యాన ఆవాహనాది భగవాన్ సర్వాత్మిక సుప్రీతో సుప్రసన్నో వరదో భవతో రెండు అక్షింతలు గాని అక్కడ ఉన్నటువంటి ఒక పువ్వుని గాని మీ శిరస్సు పైన ధరించండి సహస్ర పరమాదేవి శతమూలా శతాంకురా సర్వతం వ్రతమే పాపం ధూర్వా దుష్వప్ననాశని శ్రీ మహా గణాధిపతయే నమః ప్రసాదం శిరసాగృణామి"
+    },
+    {
+      "id": "devi_katha",
+      "title": "మహిషాసుర మర్దిని మహిమ",
+      "title_en": "Significance of Mahishasura Mardini",
+      "say": "ఇప్పుడు అమ్మవారి పూజ ప్రారంభమవుతుంది. ముందుగా మహిషాసుర మర్దిని అమ్మవారి మహిమ వినండి.",
+      "say_en": "Now Amma's pooja begins. First, listen to the significance of Mahishasura Mardini.",
+      "segment": [
+        879,
+        976
+      ],
+      "action": "listen",
+      "check": null,
+      "chant_guide": "నవరాత్రుల్లో భాగంగా తొమ్మిదవ రోజునాడు మనం మహిషాసుర మర్దిని దేవతని మనం ఆరాధిస్తాం. అసలు ఈ మహిషాసుర మర్ధిని అనేటటువంటి నామకరణం ఎలా వచ్చింది అంటే మహిషాసురుడు అనేటటువంటి రాక్షసుని సంహరించినటువంటి అమ్మవారు దుర్గాదేవి యొక్క ఉగ్ర స్వరూపము అందువలన ఈ మహిషాసురుడు అనేటటువంటి రాక్షసుని చంపడం ద్వారా అమ్మవారికి మహిషాసుర మర్దిని అనేటటువంటి నామకరణం చేసి ఉగ్ర స్వరూపముగా తొమ్మిదవ రోజునాడు అమ్మవారిని మనం ఎంతో భక్తి శ్రద్ధలతో పూజిస్తు ఉంటాం ఈ యొక్క అమ్మవారు బ్రహ్మ విష్ణు మహేశ్వరుల యొక్క తేజోరూపమైనటువంటి దుర్గాదేవి యొక్క ఉగ్ర స్వరూపమే ఈ మహిషాసుర మర్దిని కాబట్టి మనం తొమ్మిదవ రోజునాడు మహిషాసుర మర్దినిని మనం ఈ పూజా కార్యక్రమాన్ని అంతా కూడా చేస్తూ ఉంటాం. అమ్మవారు ఏదైతే మనకి దుష్ట శక్తులు శత్రు సంహారం ఏదైతే ఉందో వాటన్నిటిని కూడా సంహరించి భక్తులందరిని కూడా కాపాడేటటువంటి అమ్మవారే మహిషాసుర మర్దిని అమ్మవారు ఈ మహిషాసురుడు అనేటటువంటి రాక్షసుడు అనేకమైనటువంటి రూపాలలో మారుతున్నటువంటి సందర్భంలో అమ్మవారు ఈ మహిషాసుర ఆ రాక్షసుని అమ్మవారు చంపారు కాబట్టి మహిషాసుర మర్దిని అనేటటువంటి అవతారాన్ని ఇక్కడ అమ్మవారు ఆవిర్భవించి ఆ రాక్షసు రాక్షసుని సంహరించి ఈ యొక్క ప్రజలందరినీ కూడా తన భక్తులందరినీ కూడా అమ్మవారు కాపాడుతున్నారు. ఈ నవరాత్రులో మనం తొమ్మిదవ రోజునాడు మహిషాసుర మర్దిని పూజా కార్యక్రమాన్ని అంతా కూడా మనం ఇక్కడ చేసుకుంటాం."
+    },
+    {
+      "id": "devi_avahanam",
+      "title": "అమ్మవారి ధ్యానం, ఆవాహనం, ఆసనం, పాద్యం, అర్ఘ్యం",
+      "title_en": "Devi: dhyanam, avahanam, asanam, padyam, arghyam, achamaniyam",
+      "say": "ఒక పువ్వు చేతిలో పట్టుకుని నమస్కారం చేయండి. 'సమర్పయామి' అన్నప్పుడు అమ్మవారికి పువ్వు లేదా అక్షింతలు వేయండి. పాద్యం, అర్ఘ్యం, ఆచమనీయానికి ఒక్కో చెంచా నీరు పళ్ళెంలో వదలండి.",
+      "say_en": "Hold a flower and bow. At 'samarpayami', offer the flower or akshata to Amma. For padyam, arghyam and achamaniyam, drop one spoon of water into the plate each time.",
+      "segment": [
+        977,
+        1013
+      ],
+      "action": "do",
+      "check": "The person offers a flower/akshata to the Devi, or pours spoons of water into the plate.",
+      "chant_guide": "ఓం శ్రీ ధ్యాయామి ధ్యానం ఓం చతుర్భుజే చంద్రకళావతంసే కుచోన్నతే కుంకుమరాగసోనే పుండ్రేక్షుపాశాంకుష పుష్ప బాణహస్తే నమస్తే జగతేకమాతః ధ్యాయామి ధ్యాన పుష్పం సమర్పయామి ఆవాహయామి ఆవాహనం సమర్పయామి నవరత్న కచిత స్వర్ణ సింహాసనార్ధే పుష్పాక్షతం సమర్పయామి పాదయోహో పాద్యం సమర్పయామి హస్తయోహో అర్గ్యం సమర్పయామి ముకే ఆచమనీయం సమర్పయామి"
+    },
+    {
+      "id": "devi_snanam",
+      "title": "స్నానం, వస్త్రం, ఆభరణం, గంధం, పుష్పం",
+      "title_en": "Snanam, vastram, abharanam, gandham, pushpam",
+      "say": "పువ్వుతో అమ్మవారిపై నీళ్లు చల్లండి. వస్త్రం, ఆభరణాలకు అక్షింతలు వేయండి. గంధం, పసుపు, కుంకుమ పెట్టి, పువ్వులు సమర్పించండి.",
+      "say_en": "Sprinkle water on Amma with a flower. Offer akshata for vastram and abharanam. Apply sandal, turmeric and kumkuma, then offer flowers.",
+      "segment": [
+        1013,
+        1066
+      ],
+      "action": "do",
+      "check": "The person sprinkles water, applies kumkuma/turmeric, or offers flowers to the Devi.",
+      "live_check": true,
+      "chant_guide": "స్నపయామితిస్నానం ఆపోషటామయోభోహతానజేదదాతన మహేరణయ చక్షసే యోసివతమోరసః తస్యభాజతేన వసుతేరోమాత్రః తస్మా అరంగమామోయసక్షయజన్వదః శుద్ధోదకస్నానం సమర్పయామి స్నానాంతం శుద్ధ ఆచమనీయం సమర్పయామి వస్త్రం వస్త్రార్ధమే వస్త్రయుగ్మం సమర్పయామి ఆభరణార్థం ఆభరణం సమర్పయామి శ్రీ గంధద్వారాం దురాదర్శం నిత్యపుష్టాం కరేషణే ఈశ్వరగం సర్వభూతానాంతామిహోపక్వయేశ్రయం దూర్వారోహంత పుష్పిణే రదాచ పుండరీకాణ సముద్రస్య గృహాయిమే పుష్పాణిం పూజయామి కుంకుమ పూజాప్ర ప్రారంభః"
+    },
+    {
+      "id": "kumkuma_puja",
+      "title": "కుంకుమ పూజ – అష్టోత్తర శతనామావళి",
+      "title_en": "Kumkuma pooja with the 108 names",
+      "say": "ఇది ముఖ్యమైన కుంకుమ పూజ. కుంకుమను ఒక చిన్న గిన్నెలో పెట్టుకోండి. పంతులు గారు చెప్పే ప్రతి నామానికి చిటికెడు కుంకుమ అమ్మవారి పాదాల దగ్గర వేయండి.",
+      "say_en": "This is the main kumkuma pooja. Keep kumkuma in a small bowl. At every name Panthulu-garu says, offer a pinch of kumkuma at Amma's feet.",
+      "segment": [
+        1067,
+        1233
+      ],
+      "action": "do",
+      "check": "The person offers pinches of kumkuma (red powder) at the Devi's feet or on the photo/idol base.",
+      "live_check": true,
+      "chant_guide": "ఇప్పుడు మనం మహిషాసుర మర్దిని అమ్మవారికి కుంకుమతో 108 నామములను కూడా చెప్పుకొని కుంకుమ పూజ అంతా కూడా చేస్తూ ఉంటాం. ఓం మహత్యే నమః ఓం చేతనాయే నమః ఓం మాయాయే నమః ఓం మహాగౌర్యే నమః ఓం మహేశ్వర్యే నమః ఓం మహోదరాయ నమః ఓం మహాబుద్ధ్యే నమః ఓం మహాకాల్యే నమః ఓం మహాబలాయే నమః ఓం మహా సుధాయ నమః ఓం మహా నిద్రాయే నమః ఓం మహా ముద్రాయ నమః ఓం మహోదర్యే నమః ఓం మహాలక్ష్మి నమః ఓం మహాభోగాయ నమః ఓం మహామోయాయ నమః ఓం మహాజయాయ నమః ఓం మహా తృష్ణయే నమః ఓం మహా లభ్యాయే నమః ఓం మహా దృత్యే నమః ఓం మహాఘోరాయ నమః ఓం మహా దష్టాయ నమః ఓం మహాకాంత నమః ఓం మహా స్మృత్యే నమః ఓం మహా పద్మిన్యే నమః ఓం మహా మేధాయే నమః ఓం మహాబోధాయే నమః ఓం మహా తపసే నమః ఓం మహా సంస్థానాయే నమః ఓం మహారవాయే నమః ఓం మహారోహజాయ నమః ఓం మహాయుధాయే నమః ఓం మహావంద సంహార్యే నమః ఓం మహా వైవినాశన్యే నమః ఓం మహానేత్రాయ నమః ఓం మహా వక్నాయ నమః ఓం మహా వక్షసే నమః ఓం మహా భుజాయ నమః ఓం మహా మహా రూపాయ నమః ఓం సంపూర్ణాయ నమః ఓం మహాజాయాయ నమః ఓం మహానగాయే నమః మహాశాంతే నమః మహాశ్వాసాయ నమః ఓం మహా మహా పర్వతనంే నమః ఓం మహా బ్రహ్మమయే నమః ఓం మాత్రమే నమః ఓం మహాసారాయే నమః ఓం మహా సురజ్ఞే నమః ఓం మహత్యే నమః ఓం పార్వతే నమః ఓం చర్తితానందనాయ నమః ఓం శివాయే నమః ఓం మహాక్షాంతే నమః ఓం మహా ప్రాంతే నమః ఓం మహా మంత్రాయ నమః ఓం మహీమయే నమః ఓం మహా మహాకులాయే నమః ఓం మహాలోలాయ నమః ఓం మహామాయాయే నమః ఓం మహాబలాయ నమః ఓం మహానీలాయ నమః ఓం మహాశీలాయ నమః ఓం మహాబలాయ నమః ఓం మహాకళాయ నమః ఓం మహాత్రాయ నమః ఓం మహా మహా సేతవే నమః ఓం మహా హేతవే నమః ఓం మహా యశస్విన్యే నమః ఓం మహా విద్యాయే నమః ఓం మహా సాధ్యాయే నమః ఓం మహా సత్యాయే నమః ఓం మహాగత్యే నమః ఓం మహా సుగున్యే నమః ఓం మహా దుస్వప్న నాశన్యే నమః ఓం మహా మోక్షప్రతే నమః ఓం మహాభక్షాయే నమః ఓం మహేశ్వే నమః ఓం మహాభద్రాయే నమః ఓం మహావాన్యే నమః ఓం మహారోగ వినాశనే నమః ఓం మహాధరాయ నమః ఓం మహాకార్యాయే నమః ఓం మహామార్యే నమః ఓం కేచర్యే నమః ఓం మహా క్షేమకర్యే నమః ఓం మహాక్షమాయే నమః ఓం మహేశ్వర ప్రధాయన్యే నమః ఓం మహా విషజ్ఞేయ నమః ఓం విషదాయే నమః ఓం మహా దుర్గ వినాశన్యే నమః ఓం విషదాయే నమః ఓం మహావర్షాయే నమః ఓం మహా తత్వాయే నమః ఓం మహా కైలాసవాసిన్యే నమః మహా సుభద్రాయే నమః ఓం మక్ష సుభగాయే నమః ఓం మహావిద్యాయే నమః ఓం మహాసత్యయే నమః ఓం మహా ప్రత్యంగి దేవతాయే నమః ఓం మహా నిత్యాయే నమః ఓం మహా ప్రళయ కారిణ్యే నమః ఓం మహాశక్త్యే నమః ఓం మహామత్యే నమః ఓం అఖ్యే మంగళ కారిణ్యే నమః ఓం మహారమ్య నమః ఓం మహారాజ్ఞే నమః ఓం మహారాగిన్యే నమః ఓం మహారాజరాజ సింహాసిన్యే నమో నమః"
+    },
+    {
+      "id": "devi_dhupam_deepam",
+      "title": "ధూపం, దీపం",
+      "title_en": "Dhupam and deepam",
+      "say": "అగరబత్తిని అమ్మవారికి చూపించండి. తర్వాత దీపానికి నమస్కారం చేయండి.",
+      "say_en": "Wave the incense before Amma, then bow to the lamp.",
+      "segment": [
+        1233,
+        1256
+      ],
+      "action": "do",
+      "check": "A lit incense stick is waved before the Devi, or the person bows to the lamp.",
+      "chant_guide": "నానావిధా పరిమళపత్ర పుష్పాక్షతా పూజాం ఓం దశాంగం గుగ్గులోపేతం సుగంధం సుమనోహరం మాగ్రే సర్వదేవానాం ధూపోయం ప్రతిగృహ్యతాం సాక్షాత్ ప్రత్యక్షాః దీపం దర్శయామి ధూపదీపానంతరం శుద్ధాచమనీయం సమర్పయామి"
+    },
+    {
+      "id": "devi_naivedyam",
+      "title": "నైవేద్యం",
+      "title_en": "Naivedyam (banana, coconut, fruits)",
+      "say": "అరటిపండ్లు, కొబ్బరికాయ, పండ్లు లేదా తీపి అమ్మవారి ముందు పెట్టి, చుట్టూ నీళ్లు చల్లండి. 'స్వాహా' అన్నప్పుడు చేతితో నైవేద్యాన్ని అమ్మవారి వైపు చూపించండి.",
+      "say_en": "Place bananas, coconut, fruits or sweets before Amma and sprinkle water around them. At each 'swaha', gesture the offering towards Amma.",
+      "segment": [
+        1256,
+        1295
+      ],
+      "action": "do",
+      "check": "Fruits, coconut or sweets are placed in front of the Devi.",
+      "chant_guide": "నైవేద్యం ఓం భూర్భవస్వహ తత్సవితుర్వరేణ్యం భర్గోదేవస్దేమహి ధియోయోనః ప్రచోదయాతు సత్యంత వర్తేన పర్శించామి అమృతమస్తో అమృతోపసరణహే సత్యస్కాలః కదలీఫల నారికేళాహ మధుర ఫల సహిత నైవేద్యనివేదయామి ధ్యానాయ స్వాహా ఓం ఉదానాయ స్వాహా ఓం సమానాయ స్వాహా మధ్యే మధ్యే అమృతపానియం సమర్పయామిహి అమృతాపిధానమసి ఉత్తరాపోసనం సమర్పయామి హస్తో ప్రక్షాలయామి పాదో ప్రక్షాలయామిహి తండూషం ముఖమాశనార్థం"
+    },
+    {
+      "id": "devi_tambulam",
+      "title": "తాంబూలం",
+      "title_en": "Tambulam",
+      "say": "తమలపాకులు, వక్కలు అమ్మవారి ముందు పెట్టండి.",
+      "say_en": "Place betel leaves and nuts before Amma.",
+      "segment": [
+        1295,
+        1310
+      ],
+      "action": "do",
+      "check": "Betel leaves/nuts or akshata are placed before the Devi.",
+      "chant_guide": "తాంబూలం సమర్పయామి పుగీపరేష కర్పూరే నాగవల్లే ధలేర్యుత ముక్తా చూర్ణేన సమాయుక్తం తాంబూలం ప్రతిగృహ్యతా తాంబూలం సమర్పయామి తాంబూల చరణానంతరం ఆనంద కర్పూరః దివ్య మంగళ"
+    },
+    {
+      "id": "devi_harati",
+      "title": "కర్పూర హారతి",
+      "title_en": "Camphor harati to Amma",
+      "say": "కర్పూరం వెలిగించి అమ్మవారికి సవ్యదిశలో హారతి ఇవ్వండి. తర్వాత అందరూ హారతిని కళ్ళకు అద్దుకోండి.",
+      "say_en": "Light camphor and wave the harati clockwise before Amma. Then everyone takes the harati to their eyes.",
+      "segment": [
+        1310,
+        1345
+      ],
+      "action": "do",
+      "check": "A camphor or lamp flame on a plate is waved before the Devi. Flag flame near cloth, hair or children.",
+      "live_check": true,
+      "chant_guide": "నీరాజనం ఓం వేదాహమేతం పురుషం మహాంతం ఆదిత్య వరణం దమసస్తుపారహే సర్వానిరూపాణ విచితీరహ నామానుకుత్వాభివతన్ యదాస్తే ఆనంద కర్పూరః దివ్య మంగళ నీరాజనం సమర్పయామి నీరాజనానంతరం శుద్ధ ఆచమనీయం సమర్పయామి నమస్కరోమి నమస్కారం సమర్పయామి జై బోలో మాతా మహారాగ్నికి జై అందరూ కూడా హారతి కాళ్ళకు అద్దుకోండి"
+    },
+    {
+      "id": "devi_mantrapushpam",
+      "title": "మంత్రపుష్పం (దుర్గా సూక్తం)",
+      "title_en": "Mantra pushpam (Durga Suktam)",
+      "say": "రెండు చేతుల్లో పువ్వులు, అక్షింతలు పట్టుకుని నమస్కారం చేస్తూ వినండి. 'పుష్పాంజలిం సమర్పయామి' అనగానే అమ్మవారి పాదాల దగ్గర సమర్పించండి.",
+      "say_en": "Hold flowers and akshata in both palms and listen with namaskaram. At 'pushpanjalim samarpayami', offer them at Amma's feet.",
+      "segment": [
+        1345,
+        1427
+      ],
+      "action": "do",
+      "check": "The person holds flowers in joined palms or offers them at the Devi's feet.",
+      "chant_guide": "ఓం జాతవేదసే సునవామసోమమరాతియతో నిదహాతివేదః సనపరిషదతి దుర్గాణ విశ్వానావేవసింధుం దురితగ్నిహి తామగ్నివర్ణం దవసాజ్వలంతేం భైరోచనేం కర్మఫలేచు జుష్టా దుర్గాం దేవీగుం శరణమహం ప్రవత్యే సుతరసితరసే నమః అగ్నేయత్వం భారయానవ్యో అస్మాన్ స్వస్తిపిరత దుర్గానివిస్వాహ ఓచ పృద్వే బహుళానర్వే భవాతోకాయతనయాయసింయో విశ్వానినో దుర్గహ జాతవేదసింధునావా దురితాదివర్షే అగ్రే అత్రివన్మనసా గృణనోస్మాకంభోజవితతనం కృతనాజితకం సహమాన ముగ్రమగ్నిగంభువే పరమసస్తో సనపరిషదత దుర్గాణ విశవాక్షమదేవో అతిదురితజ్హే ప్రత్యోషికమేద్వరేషసనాచహోతానవ్యచసతసే స్వాంచా జ్ఞేతనువం విప్రయస్వామభ్యంచసోభగమాయజస్వా గోవిర్జిష్టోమైజోశక్తం తవేంద్రో విష్ణో రణసంచరేమా నాకస్య పుష్మిసంసానో వైష్ణవీం లోకహమాదయంత కాత్యాయనాయ విద్మహే కన్యకుమారి ధీమహే తన్నో దుర్గి ప్రచోదయాతో తివేదోక్త సువర్ణ దివ్య మంత్ర పుష్పాంజలిం ఆత్మ ప్రదక్షణ పూర్వక నమస్కారం సమర్పయామి"
+    },
+    {
+      "id": "devi_samarpanam",
+      "title": "ప్రదక్షిణ నమస్కారం, సమర్పణ",
+      "title_en": "Pradakshina namaskaram and completion",
+      "say": "మీరు ఉన్న చోటే సవ్యదిశలో మూడు సార్లు తిరిగి నమస్కారం చేయండి. చివరగా అక్షింతలు, నీళ్లు అమ్మవారి దగ్గర వదలండి.",
+      "say_en": "Turn clockwise three times where you stand and bow. Finally release akshata and water at Amma.",
+      "segment": [
+        1427,
+        1447
+      ],
+      "action": "do",
+      "check": "The person turns in place, bows, or releases akshata with water at the Devi.",
+      "chant_guide": "సరసాష్టాంగ పూర్వక నమస్కార సమర్పయామి అపరాధ నమస్కారాన్ సమర్పయామి అనేనా మయాకృతేనా భగవాన్ సర్వాత్మిక సుప్రీతో సుప్రసన్నో వరదో భవతో యతత్ సర్వం శ్రీపాదచరవిందార్పణమస్తు"
+    },
+    {
+      "id": "closing",
+      "title": "పూజ పూర్తి",
+      "title_en": "Pooja complete",
+      "say": "మహిషాసుర మర్దిని అమ్మవారి పూజ పూర్తయింది. అమ్మవారి అనుగ్రహం మీ కుటుంబంపై ఉండాలి. ప్రసాదాన్ని అందరికీ పంచండి. వీలైతే దగ్గరలోని ఆలయంలో పంతులు గారికి తాంబూలం సమర్పించవచ్చు. దీపం, కర్పూరం సురక్షితంగా ఆరిపోయే వరకు చూసుకోండి.",
+      "say_en": "The Mahishasura Mardini pooja is complete. May Amma's blessings be on your family. Share the prasadam with everyone. If you wish, offer tambulam to a priest at a nearby temple. Watch the lamp and camphor until they are safe.",
+      "segment": null,
+      "action": "listen",
+      "check": null
+    }
+  ],
+  "chant_guide_note": "chant_guide is the source video's auto-generated Telugu captions for each step: a rough guide only, with errors. The recording priest chants from his own knowledge or a reviewed paddhati."
+}
